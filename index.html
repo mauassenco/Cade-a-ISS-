@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+    <title>Cadê a ISS ?</title>
+</head>
+<body>
+    <h1 style="text-align: center" class="title">Aonde está a ISS ?</h1>
+    <div style= "display: flex; justify-content: center; gap: 30px" class="content">
+        <p>Latitude <span id='latitude'></span>°</p>
+        <p>Longitude <span id='longitude'></span>°</p>
+    </div>
+    <div id="leafletMap" style="height: 70vh;"></div>
+
+
+ <script src="/index.js"></script>   
+</body>
+    <!-- Projeto de aplicação do estudo de consumode API.
+    Utilizando fetch() API para consumir um JSON com dados da Estação Espacial Internacional(ISS). Com os dados de posição da ISS,  e atualizar em tempo real sobre o mapa mundi (projeção de Mercatur), aonde estação está passando no momento. 
+    Para o mapa, foi utilizada a biblioteca Leaflet.js responsável por criar mapas interativos.
+ -->
+</html>
