@@ -6,7 +6,7 @@ Para o mapa, foi utilizada a biblioteca Leaflet.js responsável por criar mapas 
 
 
 ## Layout
-![ISS-ss-D](https://github.com/mauassenco/git-assets/blob/master/Where%20is%20ISS/cadeiss1.png) ![ISS-ss-M](https://github.com/mauassenco/git-assets/blob/master/Where%20is%20ISS/cadeiss2.png) 
+![ISS-ss-D1](https://github.com/mauassenco/git-assets/blob/master/Where%20is%20ISS/cadeiss1.png) ![ISS-ss-D2](https://github.com/mauassenco/git-assets/blob/master/Where%20is%20ISS/cadeiss3.png) ![ISS-ss-M1](https://github.com/mauassenco/git-assets/blob/master/Where%20is%20ISS/cadeiss2.png) 
 
 # Tecnologias Utilizadas
 
